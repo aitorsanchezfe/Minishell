@@ -9,7 +9,6 @@
 #include <unistd.h>
 #include "parser.h"
 
-paco;
 tline *line;
 
 void 
