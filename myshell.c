@@ -9,6 +9,7 @@
 #include <unistd.h>
 #include "parser.h"
 
+paco;
 tline *line;
 
 void 
@@ -184,7 +185,7 @@ main(void) {
 		} 
         if (strcmp(line->commands[0].argv[0],"cd")==0)
             exec_cd();
-            
+
         else
             exec_commands();
 
